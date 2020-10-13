@@ -5,10 +5,7 @@ int main(void)
     puts("请输入两个整数");
     printf("整数vx： "); scanf("%d",&vx);
     printf("整数vy： "); scanf("%d",&vy);
-    printf("vx+vy=%d\n", vx+vy);
-    printf("vx-vy=%d\n", vx+vy);
-    printf("vx*vy=%d\n", vx+vy);
-    printf("vx/vy=%d\n", vx+vy);
-    printf("vx%%vy=%d\n", vx%vy);
+
+    printf("他们的平均值是%f。\n", (vx+vy)/2.0);
     return 0;
 }
