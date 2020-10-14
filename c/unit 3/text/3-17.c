@@ -8,6 +8,6 @@
      else if (month>=6 && month<=8)printf("%d月是夏季。\n",month);
      else if (month>=9 && month<=11)printf("%d月是秋季。\n",month);
      else if (month==1 || month==2 || month==12 )printf("%d月是冻季。\n",month);
-     else  printf(" %d月不存在 ");
+     else  printf(" %d月不存在 ",month);
      return 0;
  }
