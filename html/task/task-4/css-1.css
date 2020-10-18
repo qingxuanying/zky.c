@@ -1,0 +1,15 @@
+.big{
+    border: 2px solid blueviolet;
+    display: flex; /*让所以的弹性盒子模型具有相同的长度*//*设置或检索弹性盒模型对象的子元素如何分配空间。*/
+    height: 700px;
+    flex-direction: column; /*将两个灵活元素垂直显示*/
+    justify-content: center;/*实现居中*/
+}
+.paragraph1,
+.paragraph2{
+    border: 2px solid green;
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    margin: 20px 0;
+}
