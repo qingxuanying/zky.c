@@ -1,0 +1,21 @@
+/*两边定宽，中间自适应*/
+.left{
+    position: absolute;
+    left: 0;
+    background-color: red;
+    height: 100px;
+    width: 300px;
+}
+.right{
+    height: 100px;
+    position: absolute;
+    right: 0;
+    background-color: blue;
+    width: 300px;
+} 
+.zh{
+    margin: 0 auto;
+    background-color: yellow;
+    height: 100px;
+}
+

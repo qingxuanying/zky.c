@@ -1,0 +1,47 @@
+/*两边定宽，中间自适应*/
+/*
+div{
+        position: relative;
+}
+.left{
+    height: 100px;
+    width: calc(50% - 150px);
+    float: left;
+    background-color: red;
+}
+.right{
+    height: 100px;
+    width: calc(50% - 150px);
+    float: right;
+    background-color: blue;
+}
+.zh{
+    height: 100px;
+    width: 300px;
+    float: left;
+    background-color: yellow;
+}*/
+/*上面为计算法，即用calc函数去计算left和right的长度*/
+div{
+    height: 100px;
+    position: relative;
+}
+.left{
+    float: left;
+    width: 50%; 
+    margin-left: -150px;
+    background-color: red;
+}
+.right{
+     float: right;
+    width: 50%; 
+    margin-right: -150px;
+    background-color: blue;
+}
+.zh{
+    position: absolute;
+    left:50%;
+    transform:translateX(-50%);
+    width: 500px;
+    background-color: yellow;
+}
