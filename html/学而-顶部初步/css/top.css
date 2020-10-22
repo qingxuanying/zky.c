@@ -1,0 +1,23 @@
+.top{
+    height: 100px;
+    border: 2px solid black;
+}
+.logo{
+    height: 100px;
+    width: 157px;
+}
+.shouye{
+     height: 100px;
+     width: 157px;
+     margin: 0 auto;
+}
+.fenleichakan{
+    height: 100px;
+    width: 200px;
+    margin: 0 auto;
+}
+p{
+    height: 100px;
+    width: auto;
+    margin: 0 auto;
+}

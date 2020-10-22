@@ -51,8 +51,8 @@ int main()
 }
 */
 #include<stdio.h>
-#define M 4            //第一个矩阵的行数 、第二个矩阵的列数 （可根据自己的需要做调整） 
-#define N 3            //第一个矩阵的列数 、第二个矩阵的行数（这两个参数不限制，可不一致） 
+#define M 4            //第一个矩阵的行数 、第二个矩阵的列数  
+#define N 3            //第一个矩阵的列数 、第二个矩阵的行数
 int mat_mul(const int a[M][N],const int b[N][M],int c[M][M])
 {
     int i,j,k;

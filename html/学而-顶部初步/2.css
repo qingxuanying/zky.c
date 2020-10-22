@@ -1,0 +1,42 @@
+table{
+    border: 1px blue;
+    border-bottom: solid;
+}
+.top{
+    height: 100px;
+    width: 157px;
+    vertical-align: text-top;
+}
+/*搜索框样式*/
+.search{
+    padding: 0;
+    margin: 0;
+    width: 20%;            
+    margin: 0 0 auto;
+    display: flex;
+    /*border: 1px solid red;*/
+}
+.search input{
+    float: left;/*//左浮动*/
+    flex: 4;
+    height: 30px;
+    outline: none;
+    border: 2px solid red;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.search button{
+    float: right;
+    flex: 1;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-style: none;
+    outline: auto;
+}
+.search button i{
+    font-style: normal;
+}
+.search button:hover{
+    font-size: 16px;
+}
