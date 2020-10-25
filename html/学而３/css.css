@@ -1,0 +1,190 @@
+body{
+    background-color: lightgray;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+}
+.headcenter{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    margin-left: 0;
+    color: green;
+    width: 100px;
+    line-height: 60px;
+    min-width: 73px;
+    
+}
+.logo img {
+    vertical-align: middle;
+}
+.wenzi{
+    display: flex;
+    color: green;
+    margin-left: 3%;
+}
+.header .nav {
+    margin-right: 6%;
+    margin-left: 6%;
+    border-top: 3px solid transparent;
+    min-width: 64px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.nav:hover{
+    color: red;
+    border-top: 3px red solid;
+}
+.search{
+    display: flex;
+    height: 30px;
+    color: white;
+    border: 2px red solid;
+    margin-left: 9%;
+
+}
+.search input{
+    width: 210px;
+    border: 0 red;
+    padding: 0;
+}
+.search button {
+    padding: 0;
+    height: 30px;
+    color: white;
+    border-style: none;
+    outline: none;
+    border: 0;
+}
+.search button img{
+    height: 60px;
+    width: 70px;
+    height: 30px;
+    color: white;
+            
+}
+.headlast{
+    display: flex;
+    margin-left: 5%;
+}
+.touxiang{
+    margin-left: 2%;
+}
+.touxiang img{
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+.tuichu{
+    color: aliceblue;
+    background-color: green;
+    text-align: center;
+    width: 90px;
+    height: 40px;
+    margin-left: 10%;
+    line-height: 40px;
+    margin-top: 10px;
+}
+.cen{
+    width: 70%;
+    background-color: white;
+}
+.cen1{
+    display: flex;
+}
+.cen1 img{
+    margin: 0 auto;
+}
+.cen2{
+    display: flex;
+    width: 70%;
+    background-color: white;
+    margin: 0 auto;
+}
+.left1{
+    margin-left: 8%;
+}
+.left2{
+    margin-left: 9%;
+    
+}
+.left3{
+    margin-left: 9%;
+    margin-right: 8%;
+}
+.yuan{
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+    background-color: lightblue;
+    border-radius:50%;
+    border-color: greenyellow;
+    font-size: 60px;
+    color: green;
+    text-align: center;
+    line-height: 150px;
+}
+.liebiao{
+    margin-top: 30px;
+}
+.liebiao ul{
+    font-size: small;
+}
+.liebiao li:hover{
+    color: red;
+}
+.biaoti{
+    display: block;
+    text-align: center;
+    background-color: white;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 16px;
+    height: 90px;
+}
+.biaoti h4{
+    color: aquamarine;
+
+}
+.yuansu{
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+    width: 70%;
+}
+.lingyi{
+    margin-left: 134px;
+}
+.sz{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    color: red;
+    text-decoration: underline;
+    text-align: center;
+}
+.wz{
+    width: 148px;
+    height: 161px;
+    text-align: center;
+    border: 6px lightgreen solid ;
+}
+.wz p{
+    line-height: 49px;
+}
+.sz h1{
+    line-height: 100px;
+}
