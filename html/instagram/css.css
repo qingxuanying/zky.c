@@ -1,0 +1,218 @@
+.body{
+    background-color: aliceblue;
+}
+.top{
+    height: 7%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    border-top: solid 1px lightslategray;
+    border-bottom: solid 1px lightslategray;
+}
+.topcenter{
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    height: 50px;
+}
+.search input{
+    margin-top: 7%;
+}
+.jihe{
+    display: flex;
+    height: 50px;
+
+}
+.toptouxiang img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.center{
+    width: 100%;
+    margin-top: 6%;
+}
+.midcenter{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+.left{
+    width: 55%;
+}
+.cen1{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    overflow-x: scroll;
+    border: 1px solid;
+}
+.cen1::-webkit-scrollbar{
+    /*display: none;*/
+}
+.cen1 img{
+    width: 50px;
+    height: 50px;
+    margin-right: 3%;
+    margin-top: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.cen2{
+    width: 100%;
+    border: 1px solid;
+    margin-top: 3%;
+}
+.centop{
+    display: flex;
+    justify-content: space-between;
+}
+.zuo{
+    display: flex;
+}
+.zuo img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px lightcoral;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.gmmtv{
+    border: 3px red solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.hover12{
+    background-color: aliceblue;
+    width: 300px;
+    position: fixed;
+    border: 1px solid;
+    display: none;
+    /*display: none;*/
+}
+.hotop{
+    display: flex;
+    border-bottom: 1px solid;
+}
+.hocenter{
+    display: flex;
+}
+.hoyuan img{
+    width: 100px;
+    height: 100px;
+}
+.zuo:hover .hover12{
+    display: block;
+}
+.zuo p{
+    font-size: large;
+}
+.you{
+    font-size: large;
+    margin-right: 2%;
+}
+.img img{
+    width: 100%;
+}
+.right{
+    width: 30%;
+    position: fixed;
+    right: 16%;
+}
+.midright{
+    width: 80%;
+    margin: 0 auto;
+}
+.righttop{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.rizuo{
+    display: flex;
+
+}
+.rizuo img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px lightcoral;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.wenzi p{
+    margin: 0;
+}
+.riyou{
+    color: blue;
+}
+.rightcenter{
+    display: flex;
+    justify-content: space-between;
+}
+.tuijian p{
+    color: lightblue;
+    font-size: large;
+}
+.yuan{
+    display: flex;
+    justify-content: space-between;
+}
+.yongfu{
+    display: flex;
+}
+.yongfu img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.wenzi p{
+    margin-bottom: 3%;
+}
+.rightfoot{
+    color: darkgrey;
+}
+.cen3top{
+    display: flex;
+    justify-content: space-between;
+}
+.mingzi{
+    font-size: large;
+}
+.ping{
+    display: flex;
+    font-size: small;
+}
+.ping2{
+    color: darkgray;
+}
+.input input{
+    width: 600px;
+    height: 50px;
+}
