@@ -172,12 +172,15 @@ lable:
     case 3:
         printf("请输入需查找学生的学号:");scanf("%d",&id);
         getStudentInfoByid(id);
+        break;
     case 4:
         printf("请输入需要开除的学生的学号:");scanf("%d",&id);
         delStudentByid(id);
+        break;
     case 5:
         sortByid();
         getSchoolInfo();
+        break;
     }
     printf("是否再次操作：否.......0  是......1: ");
     scanf("%d",&a);
